@@ -1,0 +1,29 @@
+{
+  "name": "website-1",
+  "version": "1.0.0",
+  "description": "My first real website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeRossetter/website-1.git"
+  },
+  "author": "Jake Rossetter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakeRossetter/website-1/issues"
+  },
+  "homepage": "https://github.com/JakeRossetter/website-1#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper": "^1.0.1"
+  }
+}
